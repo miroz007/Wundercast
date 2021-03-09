@@ -5,6 +5,7 @@ import CoreLocation
 import MapKit
 
 class ViewController: UIViewController {
+    
   @IBOutlet private var searchCityName: UITextField!
   @IBOutlet private var tempLabel: UILabel!
   @IBOutlet private var humidityLabel: UILabel!
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
   @IBOutlet private var mapButton: UIButton!
   @IBOutlet private var mapView: MKMapView!
   @IBOutlet weak var keyButton: UIButton!
+    
   var keyTextField: UITextField?
 
   typealias Weather = ApiController.Weather
